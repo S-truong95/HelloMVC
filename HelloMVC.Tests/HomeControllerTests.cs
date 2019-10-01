@@ -17,5 +17,8 @@ namespace HelloMVC.Tests
             Assert.IsType<ViewResult>(result);
         }
 
+
     }
+
+    
 }

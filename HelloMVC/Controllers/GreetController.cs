@@ -6,13 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace HelloMVC.Controllers
 {
-    public class HomeController : Controller
+    public class GreetController : Controller
     {
-        public ViewResult Index()
+        public ViewResult Index(string name)
         {
             return View();
         }
     }
-
-    
 }
