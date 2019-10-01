@@ -12,7 +12,7 @@ namespace HelloMVC.Tests
         {
             var controller = new HomeController();
 
-            var result = Controller.Index();
+            var result = controller.Index();
 
             Assert.IsType<ViewResult>(result);
         }
